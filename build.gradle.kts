@@ -26,6 +26,16 @@ tasks {
         // Your plugin's jar (or shadowJar if present) will be used automatically.
         minecraftVersion("1.21")
     }
+
+    shadowJar {
+        // Publish shaded jar as the default artifact name to avoid shipping
+        // a non-runtime jar that is missing Kotlin classes.
+        archiveClassifier.set("")
+    }
+
+    jar {
+        enabled = false
+    }
 }
 
 val targetJavaVersion = 21

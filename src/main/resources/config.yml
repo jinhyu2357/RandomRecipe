@@ -1,0 +1,7 @@
+# Craft randomization mode:
+# ALWAYS - random output is rolled each time crafting is prepared.
+# FIRST_RUN - one random output is assigned per recipe and saved in recipes.yml.
+randomization-mode: ALWAYS
+
+# Apply random crafting to the 2x2 player inventory crafting grid.
+apply-random-to-inventory-crafting: false

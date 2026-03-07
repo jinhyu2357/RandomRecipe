@@ -1,0 +1,5 @@
+name: RandomRecipe
+version: '1.0'
+main: org.example.jinhhyu.randomRecipe.RandomRecipe
+api-version: '1.21'
+authors: [ jinhyu2357 ]

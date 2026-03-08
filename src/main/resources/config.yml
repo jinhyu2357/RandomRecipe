@@ -1,11 +1,1 @@
-# 서버 시작 시 플러그인 활성화 로그를 남길지 여부
-announce-on-enable: true
 
-# 서버 종료/리로드 시 플러그인 비활성화 로그를 남길지 여부
-announce-on-disable: true
-
-# 활성화 시 출력할 로그 메시지
-enable-message: "RandomRecipe 플러그인이 활성화되었습니다."
-
-# 비활성화 시 출력할 로그 메시지
-disable-message: "RandomRecipe 플러그인이 비활성화되었습니다."
